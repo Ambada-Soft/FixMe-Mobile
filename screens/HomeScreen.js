@@ -9,6 +9,7 @@ import {
   View,
 } from 'react-native';
 import { WebBrowser } from 'expo';
+import { RkButton } from 'react-native-ui-kitten';
 
 import { MonoText } from '../components/StyledText';
 
@@ -30,6 +31,10 @@ export default class HomeScreen extends React.Component {
               }
               style={styles.welcomeImage}
             />
+          </View>
+
+          <View>
+            <RkButton>Button Kitten UI</RkButton>
           </View>
 
           <View style={styles.getStartedContainer}>
